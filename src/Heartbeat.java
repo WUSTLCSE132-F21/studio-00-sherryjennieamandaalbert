@@ -8,8 +8,8 @@ public class Heartbeat {
 		while (time < 10) 
 		{
 			try {
-				Thread.sleep(100);
-				time += 0.1;
+				Thread.sleep(1000);
+				time += 1;
 				System.out.println("time elapsed: " + time);
 			} catch(InterruptedException e) {
 				e.printStackTrace();
